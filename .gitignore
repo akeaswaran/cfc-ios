@@ -5,3 +5,5 @@ Gemfile
 Gemfile.lock
 mobile-app-landing-page.gemspec
 *.gemspec
+.DS_Store
+*/.DS_Store
