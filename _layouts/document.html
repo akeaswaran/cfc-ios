@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4179f4">
+  <meta property="og:image" content='/assets/social-thumbnail.png' />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href='/assets/css/document-page-style.css'>
+</head>
+<body>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">{{ page.title }}</h1>
+    </section>
+
+    <section class="main-content">
+      {{ content }}
+      <footer class="site-footer">
+        <div class="site-footer-credits"><a href="{{ site.baseurl }}">College Football Coach</a> is an app by <a href="https://akeaswaran.me/">Akshay Easwaran</a>, based on <a href="https://play.google.com/store/apps/details?id=achijones.footballcoach">the original Android game</a> by <a href="https://github.com/jonesguy14/">Achi Jones.</a></div> <br>
+        <div class="site-footer-credits">This page is based on the <a href="http://windowfasting.app/beta">beta program page</a> for <a href="https://github.com/calda">Cal Stephens</a>'s <a href="http://windowfasting.app">Window</a>.</div> <br>
+        <div class="site-footer-credits">Still have questions? <a href="mailto:akeaswaran@me.com?subject=Question%20about%20College%20Football%20Coach">Send me an email</a>.
+        </footer>
+      </section>
+    </body>
+    </html>

@@ -1,0 +1,114 @@
+# App Info
+ios_app_id                                : 1095701497                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : College Football Coach                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : "Recruit. Strategize. Win. -- Take control of your own college football team and bring it to glory!"
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Akshay Easwaran
+your_link                                 : https://akeaswaran.me/
+your_city                                 : Atlanta, GA
+email_address                             : akeaswaran@me.com
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
+github_username                           : akeaswaran
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Manage a college football team from the palm of your hand!
+    description                           : Play season after season and build up your program anywhere and everywhere all on your phone.
+    fontawesome_icon_name                 : football-ball
+
+  - title                                 : Play your way to the National Championship!
+    description                           : On any given Saturday, any team can win. Put together a winning roster and challenge the nation's heavyweights to stake your claim to fame.
+    fontawesome_icon_name                 : trophy
+
+  - title                                 : Choose from 120 teams in 10 conferences all across the nation!
+    description                           : Build up a local team from the ground up or bounce from program to program to be a major player in college football history.
+    fontawesome_icon_name                 : users
+
+  - title                                 : Scour the nation for premier talent to strengthen your program!
+    description                           : Duke it out with other schools to sign the nation's best high school players to your team.
+    fontawesome_icon_name                 : door-open
+
+  - title                                 : Access the Transfer Portal to snag some of the best proven talent in the nation!
+    description                           : Find diamonds in the rough that other schools have overlooked to add veteran leadership and bolster your roster.
+    fontawesome_icon_name                 : user-plus
+
+  - title                                 : Choose how you want to play!
+    description                           : Want to run the option and run over opponents? Want to load the box and force opponents to beat you in the air? Choose from a variety of different playbooks to use and change them between games to out-gameplan your opponent!
+    fontawesome_icon_name                 : clipboard # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               :                     # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#fff"
+cover_overlay_transparency                : 0.0
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "ffffff"
+
+link_color                                : "#3DB39E"
+
+app_title_color                           : "#000"
+app_price_color                           : "#666"
+app_description_color                     : "#121212"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#3DB39E"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
