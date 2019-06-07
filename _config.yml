@@ -107,6 +107,8 @@ footer_text_color                         : "#666666"
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
+baseurl: /
+
 # Exclude these files from your production _site
 exclude:
   - LICENSE
