@@ -4,7 +4,7 @@ layout: document
 ---
 
 <div align="center">
-    <img src="assets/header.png" style="max-height: 375px">
+    <img src="assets/background.png" style="max-height: 375px">
 </div>
 
 ***College Football Coach*** is constantly being improved based on user feedback. Join the **CFC Beta Program** to test out the latest versions of College Football Coach before they're released on the App Store.
