@@ -32,7 +32,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Manage a college football team from the palm of your hand!
-    description                           : Play season after season and build up your program anywhere and everywhere all on your phone.
+    description                           : Play game after game and season after season and build up your program anywhere and everywhere -- all on your phone.
     fontawesome_icon_name                 : football-ball
 
   - title                                 : Play your way to the National Championship!
@@ -47,7 +47,7 @@ features                                  :
     description                           : Duke it out with other schools to sign the nation's best high school players to your team.
     fontawesome_icon_name                 : door-open
 
-  - title                                 : Access the Transfer Portal to snag some of the best proven talent in the nation!
+  - title                                 : Dive into the Transfer Portal to snag some of the best proven talent in the nation!
     description                           : Find diamonds in the rough that other schools have overlooked to add veteran leadership and bolster your roster.
     fontawesome_icon_name                 : user-plus
 
